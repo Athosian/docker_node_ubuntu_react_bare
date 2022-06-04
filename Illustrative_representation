@@ -1,0 +1,13 @@
+(External User) -->     port(?????)     [frontend networks]
+                                                |
+                                    +-----------------------+
+                                    |    frontend service   |                           
+                                    |        "webapp"       |
+                                    +-----------------------+
+                                                |
+                                        [backend services]
+                                                |
+                                    +-----------------------+
+                                    |    backend service    |
+                                    |       "postgres"      |
+                                    +-----------------------+
